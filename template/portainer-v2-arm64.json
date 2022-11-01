@@ -14,7 +14,7 @@
 		      "categories": ["development", "project-management"],
 		      "platform": "linux",
 		      "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
-		      "image": "gitlab/gitlab-ce:latest",
+		      "image": "yrzr/gitlab-ce-arm64v8",
 		      "ports": ["80/tcp", "443/tcp", "22/tcp"],
 		      "volumes": [
 			{
