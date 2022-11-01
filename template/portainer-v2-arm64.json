@@ -21,7 +21,7 @@
 			],
 			"image": "jenkins/jenkins:lts-jdk11",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/jenkins.png",
-			"name": "archisteamfarm",
+			"name": "jenkins",
 			"platform": "linux",
 			"ports": [
 			"8080/tcp",
