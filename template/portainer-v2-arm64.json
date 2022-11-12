@@ -4,7 +4,7 @@
 		{
 			"type": 1,
 			"title": "MySQL",
-			"description": "The most popular open-source database",
+			"description": "The most popular open-source database (ARM64 architecture)",
 			"categories": [
 			"database"
 			],
