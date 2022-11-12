@@ -2,6 +2,36 @@
 	"version": "2",
 	"templates": [
 		{
+			"type": 1,
+			"title": "MySQL",
+			"description": "The most popular open-source database (ARM64 architecture)",
+			"categories": [
+			"database"
+			],
+			"platform": "linux",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
+			"image": "arm64v8/mysql",
+			"env": [
+			{
+			"name": "MYSQL_ROOT_PASSWORD",
+			"label": "Root password"
+			},
+			{
+			"name": "MYSQL_ROOT_HOST",
+			"default": "%",
+			"preset": true
+			}
+			],
+			"ports": [
+			"3306/tcp"
+			],
+			"volumes": [
+			{
+			"container": "/var/lib/mysql"
+			}
+			]
+		},
+		{
 			"categories": [
 				"Continuous-integration",
 				"Version-control",
