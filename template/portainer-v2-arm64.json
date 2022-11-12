@@ -10,7 +10,7 @@
 			],
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
-			"image": "mysql/mysql-server:5.7",
+			"image": "arm64v8/mysql",
 			"env": [
 			{
 			"name": "MYSQL_ROOT_PASSWORD",
